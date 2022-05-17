@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -6,7 +6,7 @@ void main()
 	setlocale(LC_ALL, "");
 	double a, b;
 	char s;
-	cout << "Ââåäèòå àðèôìåòè÷åñêîå âûðîæåíèå: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð²Ñ‹Ñ€Ð¾Ð¶ÐµÐ½Ð¸Ðµ: ";
 	cin >> a >> s >> b;
 	switch(s)
 	{
