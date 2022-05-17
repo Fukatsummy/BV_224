@@ -8,7 +8,14 @@ void main()
 	char s;
 	cout << "¬ведите арифметическое вырожение: ";
 	cin >> a >> s >> b;
-
+	switch(s)
+	{
+	case '+':cout << a << " + " << b << " = " << a + b << endl; break;
+	case '-':cout << a << " - " << b << " = " << a - b << endl; break;
+	case '*':cout << a << " * " << b << " = " << a * b << endl; break;
+	case '/':cout << a << " / " << b << " = " << a / b << endl; break;
+	default: cout << "Error" << endl;
+	}
 
 
 }
