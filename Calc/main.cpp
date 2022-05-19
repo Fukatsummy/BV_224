@@ -4,7 +4,7 @@ using namespace std;
 void main()
 {
 	setlocale(LC_ALL, "");
-	double a, b;
+	/*double a, b;
 	char s;
 	cout << "Введите арифметическое вырожение: ";
 	cin >> a >> s >> b;
@@ -15,7 +15,7 @@ void main()
 	case '*':cout << a << " * " << b << " = " << a * b << endl; break;
 	case '/':cout << a << " / " << b << " = " << a / b << endl; break;
 	default: cout << "Error" << endl;
-	}
+	}*/
 
 
 }
