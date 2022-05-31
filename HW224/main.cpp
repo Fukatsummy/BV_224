@@ -40,5 +40,6 @@ void main()
 		else if (key == 's')cout << "Назад" << endl;
 		else if (key == 'a')cout << "Влево" << endl;
 		else if (key == 13)cout << "FIRE" << endl;
+		//case 'w':case 'W': cout << "Вперед" << endl; break;
 	} while (key!=Escape);
 }
